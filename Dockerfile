@@ -11,3 +11,5 @@ COPY main.go ./
 RUN go build
 
 CMD ["./loadbalancer"]
+
+#docker pull bhandari153/loadbalancer
